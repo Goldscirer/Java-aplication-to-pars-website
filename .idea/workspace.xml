@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0e8a46-775d-44f6-873b-8c6329fa6362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Java-aplication-to-pars-website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RegExr.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/RegExr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegExr/Main.class" afterDir="false" />
     </list>
@@ -33,7 +30,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -52,10 +49,10 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="12" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="RegExr.Main" />
-      <module name="Java-aplication-to-pars-website" />
+      <module name="RegExr" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="RegExr.*" />
