@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c0e8a46-775d-44f6-873b-8c6329fa6362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/FetchWebContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/PLKTeams.java" afterDir="false" />
+    <list default="true" id="6c0e8a46-775d-44f6-873b-8c6329fa6362" name="Default Changelist" comment="Master: Prepare list of teams">
+      <change afterPath="$PROJECT_DIR$/terminarz_i_wyniki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/PLKTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/PLKTeams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegExr/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,10 +51,10 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH" value="12" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="RegExr.Main" />
-      <module name="RegExr" />
+      <module name="Java-aplication-to-pars-website" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="RegExr.*" />
@@ -80,6 +84,7 @@
       <workItem from="1571165391875" duration="154000" />
       <workItem from="1571165587168" duration="4061000" />
       <workItem from="1571207205728" duration="1244000" />
+      <workItem from="1571750438713" duration="10307000" />
     </task>
     <task id="LOCAL-00001" summary="Master: Prepare list of teams">
       <created>1571213894711</created>
