@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c0e8a46-775d-44f6-873b-8c6329fa6362" name="Default Changelist" comment="Master: Teams schedule by hardcode team name">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/CompetitionSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/ConsoleHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/Place.java" afterDir="false" />
+    <list default="true" id="6c0e8a46-775d-44f6-873b-8c6329fa6362" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/FetchWebContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/FetchWebContent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/PLKTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/PLKTeams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/FetchWebContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegExr/FetchWebContent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/PLKTeams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegExr/PLKTeams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terminarz_i_wyniki.html" beforeDir="false" afterPath="$PROJECT_DIR$/terminarz_i_wyniki.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +83,7 @@
       <workItem from="1571815715818" duration="5071000" />
       <workItem from="1571847777990" duration="2576000" />
       <workItem from="1571918629782" duration="3477000" />
-      <workItem from="1571938162737" duration="3206000" />
+      <workItem from="1571938162737" duration="3760000" />
     </task>
     <task id="LOCAL-00001" summary="Master: Prepare list of teams">
       <created>1571213894711</created>
@@ -111,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571780756438</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Master: Refactor">
+      <created>1571941604393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571941604393</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +128,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Master: Prepare list of teams" />
     <MESSAGE value="Master: Teams schedule by hardcode team name" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master: Teams schedule by hardcode team name" />
+    <MESSAGE value="Master: Refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Master: Refactor" />
   </component>
 </project>
