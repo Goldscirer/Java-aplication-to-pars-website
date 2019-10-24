@@ -1,5 +1,8 @@
 package RegExr;
 
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URL;
@@ -7,8 +10,6 @@ import java.net.URLConnection;
 import java.util.Scanner;
 
 public class FetchWebContent {
-
-    private static final String teamListURL = "https://www.plk.pl/tabele.html";
 
     public static String getContentFromURL(String webUrl) throws IOException {
         String content = null;
@@ -24,6 +25,11 @@ public class FetchWebContent {
         }
 
         return content;
+    }
+
+    public static Document getContentFromURLbyJSOUP(String webUrl) throws IOException {
+        return Jsoup.connect(webUrl).get();
+
     }
 
     public static void saveWebToFIle(String webUrl) throws IOException {

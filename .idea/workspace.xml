@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c0e8a46-775d-44f6-873b-8c6329fa6362" name="Default Changelist" comment="Master: Prepare list of teams">
-      <change afterPath="$PROJECT_DIR$/terminarz_i_wyniki.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6c0e8a46-775d-44f6-873b-8c6329fa6362" name="Default Changelist" comment="Master: Teams schedule by hardcode team name">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/CompetitionSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/ConsoleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/Place.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/FetchWebContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/FetchWebContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/PLKTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/PLKTeams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegExr/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/FetchWebContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegExr/FetchWebContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/PLKTeams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegExr/PLKTeams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminarz_i_wyniki.html" beforeDir="false" afterPath="$PROJECT_DIR$/terminarz_i_wyniki.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,10 +57,10 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="12" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="RegExr.Main" />
+      <option name="MAIN_CLASS_NAME" value="RegExr.Application" />
       <module name="Java-aplication-to-pars-website" />
       <extension name="coverage">
         <pattern>
@@ -84,7 +91,11 @@
       <workItem from="1571165391875" duration="154000" />
       <workItem from="1571165587168" duration="4061000" />
       <workItem from="1571207205728" duration="1244000" />
-      <workItem from="1571750438713" duration="10307000" />
+      <workItem from="1571750438713" duration="10550000" />
+      <workItem from="1571815715818" duration="5071000" />
+      <workItem from="1571847777990" duration="2576000" />
+      <workItem from="1571918629782" duration="3477000" />
+      <workItem from="1571938162737" duration="3206000" />
     </task>
     <task id="LOCAL-00001" summary="Master: Prepare list of teams">
       <created>1571213894711</created>
@@ -93,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571213894711</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Master: Teams schedule by hardcode team name">
+      <created>1571780756438</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571780756438</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Master: Prepare list of teams" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master: Prepare list of teams" />
+    <MESSAGE value="Master: Teams schedule by hardcode team name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Master: Teams schedule by hardcode team name" />
   </component>
 </project>
