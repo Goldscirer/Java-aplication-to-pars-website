@@ -1,24 +1,22 @@
 package RegExr;
 
-import org.jsoup.nodes.Element;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.Scanner;
 
-public class ConsoleHandler {
-    public static Integer getNumberFromConsole() {
+class ConsoleHandler {
+    static Integer getNumberFromConsole() {
         Scanner inputNumber = new Scanner(System.in);
         return inputNumber.nextInt();
     }
 
-    public static void printPlaceMenu() {
+    static void printPlaceMenu() {
         System.out.println("Please choose place:");
         System.out.println("1. Home");
         System.out.println("2. Away");
     }
 
-    public static void printPLKTeamsToConsole() throws IOException {
+    static void printPLKTeamsToConsole() throws IOException {
         final List<String> teams = PLKTeams.getPLKTeams();
 
         for (int counter = 0; counter < PLKTeams.getNumberOfTeams(); counter++) {
@@ -26,11 +24,18 @@ public class ConsoleHandler {
         }
     }
 
-    public static void printScheduleToConsole(Element searchTems, Element enemyTeam, Element date, Element score, Place place) {
-        if (place.equals(Place.home)) {
-            System.out.println(searchTems.ownText() + " - " + enemyTeam.ownText() + "  " + date.ownText() + " " + score.ownText());
+    static void printScheduleToConsole(Match match, MatchPlace place) {
+        if (place.equals(MatchPlace.HOME)) {
+            System.out.println(match.getHomeTeam() + " - " + match.getAwayTeam() + "  "
+                    + match.getDate() + " " + match.getScore());
         } else {
-            System.out.println(enemyTeam.ownText() + " - " + searchTems.ownText() + "  " + date.ownText() + " " + score.ownText());
-        }
+            System.out.println(match.getAwayTeam() + " - " + match.getHomeTeam() + "  "
+                    + match.getDate() + " " + match.getScore());        }
+    }
+
+    static void waitForUserActivity(){
+        Scanner s=new Scanner(System.in);
+        System.out.println("Press enter to continue.....");
+        s.nextLine();
     }
 }

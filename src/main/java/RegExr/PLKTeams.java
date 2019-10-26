@@ -6,13 +6,13 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class PLKTeams {
+class PLKTeams {
 
     private static final String teamListURL = "https://www.plk.pl/tabele.html";
     private static final Pattern TAG_REGEX = Pattern.compile("<td class=\"druzyna\">(.+?)</td>", Pattern.DOTALL);
     private static final Integer numberOfTeams = 16;
 
-    protected static List<String> getPLKTeams() throws IOException {
+    static List<String> getPLKTeams() throws IOException {
         String webContent = FetchWebContent.getContentFromURL(teamListURL);
         return convertWebContentToTeamList(webContent);
     }
@@ -29,7 +29,7 @@ public class PLKTeams {
         return tagValues;
     }
 
-    protected static Integer getNumberOfTeams() {
+    static Integer getNumberOfTeams() {
         return numberOfTeams;
     }
 }

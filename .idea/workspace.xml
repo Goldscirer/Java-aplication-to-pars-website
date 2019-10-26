@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c0e8a46-775d-44f6-873b-8c6329fa6362" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/RegExr/Match.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/CompetitionSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/CompetitionSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/ConsoleHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/ConsoleHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/FetchWebContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/FetchWebContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/PLKTeams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/PLKTeams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegExr/Place.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegExr/MatchPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/FetchWebContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegExr/FetchWebContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RegExr/PLKTeams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RegExr/PLKTeams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminarz_i_wyniki.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1SEiJ3fq4mgGHT2LWZe75d2mtgy" />
@@ -83,7 +98,7 @@
       <workItem from="1571815715818" duration="5071000" />
       <workItem from="1571847777990" duration="2576000" />
       <workItem from="1571918629782" duration="3477000" />
-      <workItem from="1571938162737" duration="3760000" />
+      <workItem from="1571938162737" duration="13366000" />
     </task>
     <task id="LOCAL-00001" summary="Master: Prepare list of teams">
       <created>1571213894711</created>
@@ -106,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571941604393</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Master: Added readme">
+      <created>1571941948255</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571941948255</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +151,7 @@
     <MESSAGE value="Master: Prepare list of teams" />
     <MESSAGE value="Master: Teams schedule by hardcode team name" />
     <MESSAGE value="Master: Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master: Refactor" />
+    <MESSAGE value="Master: Added readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Master: Added readme" />
   </component>
 </project>

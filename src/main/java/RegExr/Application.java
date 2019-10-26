@@ -1,18 +1,22 @@
 package RegExr;
 
-import java.io.*;
-
 public class Application {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
+        boolean runApplication = true;
 
-        while (true) {
-            ConsoleHandler.printPLKTeamsToConsole();
-            Integer teamNumber = ConsoleHandler.getNumberFromConsole();
-            ConsoleHandler.printPlaceMenu();
-            Integer matchPlaceNumber = ConsoleHandler.getNumberFromConsole();
-            CompetitionSchedule.getTeamSchedule(teamNumber, matchPlaceNumber);
-            Integer stopWhenEnd = ConsoleHandler.getNumberFromConsole();
+        while (runApplication) {
+            try {
+                ConsoleHandler.printPLKTeamsToConsole();
+                Integer teamNumber = ConsoleHandler.getNumberFromConsole();
+                ConsoleHandler.printPlaceMenu();
+                Integer matchPlaceNumber = ConsoleHandler.getNumberFromConsole();
+                CompetitionSchedule.getTeamSchedule(teamNumber, matchPlaceNumber);
+                ConsoleHandler.waitForUserActivity();
+            } catch(Exception exception) {
+                runApplication = false;
+                System.out.println("Please check your internet connection!");
+            }
         }
     }
 }
